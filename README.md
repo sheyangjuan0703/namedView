@@ -2,6 +2,7 @@
 
 ![示例图片](https://raw.githubusercontent.com/sheyangjuan0703/namedView/master/static/show.png)
 
+[演示地址](https://sheyangjuan0703.github.io/namedView/dist/#/home/menu/list/2)
 > A Vue.js project
 
 ## Build Setup
