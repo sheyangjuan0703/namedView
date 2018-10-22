@@ -1,7 +1,16 @@
 <template>
   <div class="hello">
     我是菜单{{ $route.params.index}}的内容
-    <table>
+    <ul>
+      <li v-for="(items, index) in myList" :key="index">
+        <ul>
+          <li v-for="(item, index) in items" :key="index" v-if="items">
+            {{item}}
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <table ref="myTable">
       <thead>
         <tr>
           <td>序号</td>
@@ -10,7 +19,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-for="x in 10" :key="x">
+        <tr v-for="x in 5" :key="x">
           <td>{{x}}</td>
           <td>我是列表</td>
           <td>
@@ -20,6 +29,7 @@
         </tr>
       </tbody>
     </table>
+    我是一个多级表格
   </div>
 </template>
 
@@ -28,7 +38,11 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
+      myList: [['1', '2'], [undefined, '3']]
     }
+  },
+  mounted () {
+    console.log(this.$refs.myTable)
   }
 }
 </script>

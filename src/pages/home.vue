@@ -1,21 +1,27 @@
 <template>
   <!-- 上下布局  -->
   <div id="home">
-    <router-view class="view header" name="header"></router-view>
+    <router-view class="view header" name="header"/>
     <!-- 左右布局 -->
     <div class="flex_left_right">
       <router-view class="view menu" name="menu"></router-view>
       <router-view class="view content" name="content"></router-view>
     </div>
+    <router-view ></router-view>
   </div>
 </template>
 
 <script>
 export default {
+  mounted () {
+    this.$router.options.routes.forEach((item, index) => {
+      // console.log(item, index)
+    })
+  }
 }
 </script>
 
-<style>
+<style scoped>
 #home {
   height: 100%;
   display: flex;

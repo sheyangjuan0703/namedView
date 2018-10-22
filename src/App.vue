@@ -11,6 +11,9 @@ export default {
 </script>
 
 <style>
+/* body{
+  background: red
+} */
 #app {
   height: 100%;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

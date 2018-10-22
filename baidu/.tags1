@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+html	D:\workspace\IndustrialMap\map.html	/^<html>$/;"	function	line:2
+head	D:\workspace\IndustrialMap\map.html	/^<head>$/;"	function	line:3
+meta	D:\workspace\IndustrialMap\map.html	/^	<meta http-equiv="Content-Type" content="text\/html; charset=utf-8" \/>$/;"	function	line:4
+meta	D:\workspace\IndustrialMap\map.html	/^	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" \/>$/;"	function	line:5
+style	D:\workspace\IndustrialMap\map.html	/^	<style type="text\/css">$/;"	function	line:6
+link	D:\workspace\IndustrialMap\map.html	/^	<link href="http:\/\/cdn.bootcss.com\/font-awesome\/4.7.0\/fonts\/fontawesome-webfont.svg"\/>$/;"	function	line:9
+link	D:\workspace\IndustrialMap\map.html	/^	<link href="http:\/\/cdn.bootcss.com\/font-awesome\/4.7.0\/css\/font-awesome.min.css" rel="stylesheet">$/;"	function	line:10
+link	D:\workspace\IndustrialMap\map.html	/^	<link href="css\/industry_map.css" rel="stylesheet">$/;"	function	line:11
+script	D:\workspace\IndustrialMap\map.html	/^	<script type="text\/javascript" src="http:\/\/api.map.baidu.com\/api?v=2.0&ak=你的秘钥"><\/script>$/;"	function	line:12
+title	D:\workspace\IndustrialMap\map.html	/^	<title>地图展示<\/title>$/;"	function	line:13
+body	D:\workspace\IndustrialMap\map.html	/^<body>$/;"	function	line:15
+div	D:\workspace\IndustrialMap\map.html	/^	<div id="allmap"><\/div>$/;"	function	line:16
+script	D:\workspace\IndustrialMap\map.html	/^<script type="text\/javascript" src="js\/textIconOverlay.js"><\/script>$/;"	function	line:19
+script	D:\workspace\IndustrialMap\map.html	/^<script type="text\/javascript" src="js\/maplib.js"><\/script>$/;"	function	line:20
+script	D:\workspace\IndustrialMap\map.html	/^<script type="text\/javascript">$/;"	function	line:21
